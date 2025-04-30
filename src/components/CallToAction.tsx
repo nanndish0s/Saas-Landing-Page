@@ -18,7 +18,7 @@ export const CallToAction = () => {
 
   useEffect(() => {
     scrollYProgress.on('change', value => console.log('value', value));
-  }, []);
+  }, [scrollYProgress]);
 
   return (
     <div className="relative overflow-x-hidden bg-black text-white py-[72px] sm:py-24 text-center" ref={containerRef}>
